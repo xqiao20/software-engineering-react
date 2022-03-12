@@ -1,8 +1,8 @@
 import {Link, useNavigate} from "react-router-dom";
 import {useEffect, useState} from "react";
-import * as service from "../../services/users-service";
+import * as service from "../../services/users-service.js";
 import React from "react";
-import {UserList} from "./user-list";
+import {UserList} from "./user-list.js";
 
 export const Login = () => {
   const [existingUsers, setExistingUsers] = useState([]);
